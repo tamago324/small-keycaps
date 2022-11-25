@@ -43,8 +43,8 @@ module convex() {
 /* keycap_r2(); */
 /* keycap_r3(); */
 /* keycap_r4(); */
-/* convex(); */
-keycap_home();
+convex();
+/* keycap_home(); */
 
 
 //for (x = [0, 1, 2, 3, 4])

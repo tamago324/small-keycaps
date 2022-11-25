@@ -12,7 +12,7 @@ module convex_outershape(key_bottom_size, key_top_size, key_top_height) {
     rotate([0,90,0]) {
         $fn=128;
         // この丸みを小さくすると、丸くなる
-        convex_value = 1.8;
+        convex_value = 1.7;
         scale([1,convex_value,1])
           translate([0, 1, 0])
           cylinder(key_bottom_size,key_top_height,key_top_height,true);
@@ -22,8 +22,8 @@ module convex_outershape(key_bottom_size, key_top_size, key_top_height) {
 
 module convex_innershape(bottom, top, height) {
   thickness = 1;
-  /* convex_outershape(bottom - (thickness * 2), top - (thickness * 2), height - thickness); */
-  base_cube(bottom - (thickness * 2), top - (thickness * 2), height - thickness, angle=0, shift_upword=0);
+  convex_outershape(bottom - (thickness * 2), top - (thickness * 2), height - thickness);
+  /* base_cube(bottom - (thickness * 2), top - (thickness * 2), height - thickness, angle=0, shift_upword=0); */
 }
 
 module convex_shape(bottom, top, height) {
