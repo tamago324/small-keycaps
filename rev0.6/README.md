@@ -28,6 +28,10 @@ JLCPCB に発注することを想定しています。
 
 また、`0.8mm wall thickness detected` のような渓谷が表示されますが、`Yes` を選んで発注をします。
 
+## rev0.7 でやりたいこと
+
+ホームキーのポチをもう少し大きくする
+
 ## 参考
 
 * https://github.com/bbrfkr/lhs-profile-keycap
