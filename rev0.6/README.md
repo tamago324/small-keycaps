@@ -17,6 +17,16 @@ src/keycaps で出力したい形の module を呼び出すように編集
 openscad -o "stl/keycaps_r2.stl" "src/keycaps.scad"
 ```
 
+## 発注
+
+JLCPCB に発注することを想定しています。
+発注するときのオプションは以下のようにします。
+
+* 3D Technology: MJF(Nylon)
+* Material: PA12-HP Nylon
+* Color: Dyed Black
+
+また、`0.8mm wall thickness detected` のような渓谷が表示されますが、`Yes` を選んで発注をします。
 
 ## 参考
 
