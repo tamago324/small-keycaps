@@ -26,7 +26,7 @@ JLCPCB に発注することを想定しています。
 * Material: PA12-HP Nylon
 * Color: Dyed Black
 
-また、`0.8mm wall thickness detected` のような渓谷が表示されますが、`Yes` を選んで発注をします。
+また、`0.8mm wall thickness detected` のような表示が表示されますが、`Yes` を選んで発注をします。
 
 ## rev0.7 でやりたいこと
 
